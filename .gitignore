@@ -1,0 +1,29 @@
+# Abaikan folder virtual environment
+.venv/
+
+# Abaikan file konfigurasi rahasia
+.env
+
+# Abaikan cache dan bytecode Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Abaikan file log
+*.log
+
+# Abaikan database SQLite (kalau ada)
+*.sqlite3
+
+# Abaikan file OS
+.DS_Store
+Thumbs.db
+
+# Abaikan file editor/IDE
+.vscode/
+.idea/
+
+# Abaikan folder build/dist kalau bikin package
+build/
+dist/
+*.egg-info/
